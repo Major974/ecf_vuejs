@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Convertiseur d'Euros et Roubles</h1>
+    <h1>Convertiseur d'Euros ∞ Roubles</h1>
     <p>
       Cette application sert à convertire les euros en roubles et les rouble en
       euros le montant a inseret doit et un nombre avec un maximum de 2 décimal 
