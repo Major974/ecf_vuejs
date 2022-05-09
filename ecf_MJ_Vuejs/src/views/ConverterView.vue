@@ -12,7 +12,7 @@
       <input
         type="number"
         placeholder="Montant en Euros"
-        v-model="this.ConverterEuros"
+        v-model="Euros"
         min="1.00"
         max="1 000 000 000.00"
       />
@@ -30,7 +30,7 @@
       <input
         type="number"
         placeholder="Montant en Roubles"
-        v-model="this.ConverterRoubles"
+        v-model="Roubles"
         min="1.00"
         max="1 000 000 000.00"
       />
@@ -60,14 +60,18 @@ export default {
         return {
             T: false,
             P: false,
+            Euros: Number,
+            Roubles: Number,
         };
     },
     methods: {
         SubmitT() {
             this.T = true;
+            this.ConverterEuros = this.Euros;
         },
         SubmitP() {
             this.P = true;
+            this.ConverterRoubles = this.Roubles;
         },
     },
 };
