@@ -13,5 +13,6 @@ export const useConverterStore = defineStore({
     getConverterEuros: (state) => state.ConverterEuros * 72.82,
   },
   actions: {
+    persist: true,
   },
 });

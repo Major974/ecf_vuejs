@@ -3,8 +3,8 @@
     <h1>Convertiseur d'Euros et Roubles</h1>
     <p>
       Cette application sert à convertire les euros en roubles et les rouble en
-      euros le montant a inseret doit et un nombre entier ( ne pas contenir de '
-      , ') et doit etre de valeur positive (pas de ' - ' avant).
+      euros le montant a inseret doit et un nombre avec un maximum de 2 décimal 
+      ( 1.00 ) et doit etre de valeur positive (pas de symbole ' - ' avant).
     </p>
     <br />
     <form @submit.prevent="SubmitT">
